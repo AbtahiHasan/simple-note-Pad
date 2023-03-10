@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg-gray-800">
+    <header>
+        <h1 class="text-center text-3xl font-bold mt-5 text-teal-500">Note Pad</h1>
+    </header>
+    <main>
+        <section class="flex justify-center items-center">
+            <form id="note-data" class="mt-10 w-96 h-96 relative">
+                <textarea id="text-area" class="textarea textarea-accent bg-transparent p-2 pt-7 border-2 rounded-lg outline-none border-teal-500 h-full w-full resize-none text-teal-500" placeholder="Just type on save"></textarea>
+                    <button id="delete-btn" class="fa-solid fa-trash ml-5 p-2 absolute top-2 right-2 text-teal-500"></button>
+            </form>
+        </section>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
